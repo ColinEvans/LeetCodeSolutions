@@ -12,6 +12,10 @@
 		39197C962AF41B76000CFE50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39197C952AF41B76000CFE50 /* Preview Assets.xcassets */; };
 		39197C9E2AF4235B000CFE50 /* ValidPalindromSolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39197C9D2AF4235B000CFE50 /* ValidPalindromSolution.swift */; };
 		39197CA62AF4251D000CFE50 /* ValidPalindromTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39197CA52AF4251D000CFE50 /* ValidPalindromTests.swift */; };
+		39E8870D2AF5367C0057BBF5 /* TwoSumSorted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8870C2AF5367C0057BBF5 /* TwoSumSorted.swift */; };
+		39E8870F2AF538300057BBF5 /* TwoSumSortedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8870E2AF538300057BBF5 /* TwoSumSortedTests.swift */; };
+		39E887122AF5E1430057BBF5 /* isSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E887112AF5E1430057BBF5 /* isSubsequence.swift */; };
+		39E887142AF5E1650057BBF5 /* isSubsequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,10 @@
 		39197C9D2AF4235B000CFE50 /* ValidPalindromSolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindromSolution.swift; sourceTree = "<group>"; };
 		39197CA32AF4251D000CFE50 /* LeetCodeSolutionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeetCodeSolutionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		39197CA52AF4251D000CFE50 /* ValidPalindromTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidPalindromTests.swift; sourceTree = "<group>"; };
+		39E8870C2AF5367C0057BBF5 /* TwoSumSorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSorted.swift; sourceTree = "<group>"; };
+		39E8870E2AF538300057BBF5 /* TwoSumSortedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSumSortedTests.swift; sourceTree = "<group>"; };
+		39E887112AF5E1430057BBF5 /* isSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubsequence.swift; sourceTree = "<group>"; };
+		39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubsequenceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +81,8 @@
 		39197C8D2AF41B72000CFE50 /* LeetCodeSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				39E887102AF5E1210057BBF5 /* isSubsequence */,
+				39E8870B2AF536650057BBF5 /* TwoSumSorted */,
 				39197C9C2AF41D02000CFE50 /* ValidPalindrome */,
 				39197C8E2AF41B72000CFE50 /* LeetCodeSolutionsApp.swift */,
 				39197C922AF41B76000CFE50 /* Assets.xcassets */,
@@ -101,8 +111,26 @@
 			isa = PBXGroup;
 			children = (
 				39197CA52AF4251D000CFE50 /* ValidPalindromTests.swift */,
+				39E8870E2AF538300057BBF5 /* TwoSumSortedTests.swift */,
+				39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */,
 			);
 			path = LeetCodeSolutionsTests;
+			sourceTree = "<group>";
+		};
+		39E8870B2AF536650057BBF5 /* TwoSumSorted */ = {
+			isa = PBXGroup;
+			children = (
+				39E8870C2AF5367C0057BBF5 /* TwoSumSorted.swift */,
+			);
+			path = TwoSumSorted;
+			sourceTree = "<group>";
+		};
+		39E887102AF5E1210057BBF5 /* isSubsequence */ = {
+			isa = PBXGroup;
+			children = (
+				39E887112AF5E1430057BBF5 /* isSubsequence.swift */,
+			);
+			path = isSubsequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +234,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39197C9E2AF4235B000CFE50 /* ValidPalindromSolution.swift in Sources */,
+				39E887122AF5E1430057BBF5 /* isSubsequence.swift in Sources */,
+				39E8870D2AF5367C0057BBF5 /* TwoSumSorted.swift in Sources */,
 				39197C8F2AF41B72000CFE50 /* LeetCodeSolutionsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				39197CA62AF4251D000CFE50 /* ValidPalindromTests.swift in Sources */,
+				39E8870F2AF538300057BBF5 /* TwoSumSortedTests.swift in Sources */,
+				39E887142AF5E1650057BBF5 /* isSubsequenceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
