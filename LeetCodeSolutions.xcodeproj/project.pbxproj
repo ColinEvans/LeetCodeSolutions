@@ -18,6 +18,8 @@
 		39E887142AF5E1650057BBF5 /* isSubsequenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */; };
 		39E887172AF5EE690057BBF5 /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E887162AF5EE690057BBF5 /* ReverseString.swift */; };
 		39E887192AF5EE9C0057BBF5 /* ReverseStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E887182AF5EE9B0057BBF5 /* ReverseStringTests.swift */; };
+		39E8871C2AF6BB180057BBF5 /* SortedSquares.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8871B2AF6BB180057BBF5 /* SortedSquares.swift */; };
+		39E8871E2AF6BB700057BBF5 /* SortedSquaresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8871D2AF6BB700057BBF5 /* SortedSquaresTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = isSubsequenceTests.swift; sourceTree = "<group>"; };
 		39E887162AF5EE690057BBF5 /* ReverseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
 		39E887182AF5EE9B0057BBF5 /* ReverseStringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseStringTests.swift; sourceTree = "<group>"; };
+		39E8871B2AF6BB180057BBF5 /* SortedSquares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedSquares.swift; sourceTree = "<group>"; };
+		39E8871D2AF6BB700057BBF5 /* SortedSquaresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedSquaresTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		39197C8D2AF41B72000CFE50 /* LeetCodeSolutions */ = {
 			isa = PBXGroup;
 			children = (
+				39E8871A2AF6BAE60057BBF5 /* SortedSquares */,
 				39E887152AF5ECF20057BBF5 /* ReverseString */,
 				39E887102AF5E1210057BBF5 /* isSubsequence */,
 				39E8870B2AF536650057BBF5 /* TwoSumSorted */,
@@ -119,6 +124,7 @@
 				39E8870E2AF538300057BBF5 /* TwoSumSortedTests.swift */,
 				39E887132AF5E1650057BBF5 /* isSubsequenceTests.swift */,
 				39E887182AF5EE9B0057BBF5 /* ReverseStringTests.swift */,
+				39E8871D2AF6BB700057BBF5 /* SortedSquaresTests.swift */,
 			);
 			path = LeetCodeSolutionsTests;
 			sourceTree = "<group>";
@@ -145,6 +151,14 @@
 				39E887162AF5EE690057BBF5 /* ReverseString.swift */,
 			);
 			path = ReverseString;
+			sourceTree = "<group>";
+		};
+		39E8871A2AF6BAE60057BBF5 /* SortedSquares */ = {
+			isa = PBXGroup;
+			children = (
+				39E8871B2AF6BB180057BBF5 /* SortedSquares.swift */,
+			);
+			path = SortedSquares;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39E887172AF5EE690057BBF5 /* ReverseString.swift in Sources */,
+				39E8871C2AF6BB180057BBF5 /* SortedSquares.swift in Sources */,
 				39197C9E2AF4235B000CFE50 /* ValidPalindromSolution.swift in Sources */,
 				39E887122AF5E1430057BBF5 /* isSubsequence.swift in Sources */,
 				39E8870D2AF5367C0057BBF5 /* TwoSumSorted.swift in Sources */,
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39E8871E2AF6BB700057BBF5 /* SortedSquaresTests.swift in Sources */,
 				39197CA62AF4251D000CFE50 /* ValidPalindromTests.swift in Sources */,
 				39E887192AF5EE9C0057BBF5 /* ReverseStringTests.swift in Sources */,
 				39E8870F2AF538300057BBF5 /* TwoSumSortedTests.swift in Sources */,

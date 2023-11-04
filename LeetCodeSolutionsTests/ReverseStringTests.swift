@@ -67,5 +67,3 @@ final class ReverseStringTests: XCTestCase {
     XCTAssertEqual(sut, expectedResult)
   }
 }
-
-
