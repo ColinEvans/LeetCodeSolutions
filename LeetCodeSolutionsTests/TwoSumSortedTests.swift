@@ -33,8 +33,8 @@ final class TwoSumSortedTests: XCTestCase {
   }
   
   func test_twoSumSorted_withInvalidPair_returnsFalse() {
-    let input = [1,2,4,6,8,9,14,15]
-    let target = 12
+    let input = [2,4,6,8,9,14,15]
+    let target = 7
     
     XCTAssertFalse(twoSumSorted(input, target: target))
   }

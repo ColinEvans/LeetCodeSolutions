@@ -10,25 +10,25 @@
 func sortedSquares(_ nums: [Int]) -> [Int] {
   var i = 0
   var j = nums.count - 1
-  var n = 0
+  var n = nums.count - 1
   
-  var result = [Int]()
+  var result:[Int] = Array(repeating: 0, count: nums.count)
   
-  while n < nums.count {
+  while n >= 0 {
     let frontSquared = nums[i].squared()
     let backSquared = nums[j].squared()
 
     if frontSquared > backSquared {
-      result.append(frontSquared)
+      result[n] = frontSquared
       i += 1
     } else {
-      result.append(backSquared)
+      result[n] = backSquared
       j -= 1
     }
-    n += 1
+    n -= 1
   }
   
-  return result.reversed()
+  return result
 }
 
 extension Int {
