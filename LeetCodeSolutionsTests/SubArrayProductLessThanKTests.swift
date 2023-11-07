@@ -25,7 +25,7 @@ final class SubArrayProductLessThanKTests: XCTestCase {
     let result = 8
     
     // Act & Assert
-    XCTAssertEqual(numSubarrayProductLessThanK(input, productMax), 8)
+    XCTAssertEqual(numSubarrayProductLessThanK(input, productMax), result)
   }
   
   func test_subArrayLessThanK_zeroProduct_returnsZero() {
@@ -47,8 +47,4 @@ final class SubArrayProductLessThanKTests: XCTestCase {
     // Act & Assert
     XCTAssertEqual(numSubarrayProductLessThanK(input, productMax), result)
   }
-  
 }
-
-
-
